@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>My test page</title>
+</head>
+<body>
+<!-- 
+    In this web page, When the user clicks on the "Get Products" button, the browser will get
+    a list of products from a json file on the server (file path is given).
+
+    Write a javascript solution to get the json data from the server, and display the name of
+    the first product in the "output" text box.
+
+    URL for the json data: 
+    https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json
+-->
+    <H1>Hello, Welcome to Blue Origin!</H1>
+    <button id="load">Get Products</button>
+    <button id="reset">Reset</button>
+
+    <div>
+    <label for="output">The first product name is: </label>
+    <input id="output" type="text" name="output" placeholder="product name"/>
+    </div>
+
+    <script src="interview.js" />
+</body>
+</html>
+
